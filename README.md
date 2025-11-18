@@ -11,9 +11,7 @@ Civic Bridge is a production-ready, multimodal AI platform that enables marginal
 
 ---
 
-## 🏆 Hackathon Achievement
-
-**Winner - AI GENESIS Hackathon 2025**  
+ 
 **Category**: Opus Workflow Automation + Gemini Multimodal AI + Qdrant Vector Search
 
 **Challenge Solved**: Over 40% of urban residents in underserved neighborhoods cannot access smart city benefits due to language barriers, digital literacy gaps, and lack of trust in government technology.
