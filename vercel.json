@@ -6,13 +6,12 @@
       "maxDuration": 60
     }
   },
-  "env": {
-    "GEMINI_API_KEY": "@gemini-api-key",
-    "QDRANT_URL": "@qdrant-url",
-    "QDRANT_API_KEY": "@qdrant-api-key",
-    "OPUS_API_KEY": "@opus-api-key",
-    "OPUS_WORKFLOW_ID": "@opus-workflow-id",
-    "GOOGLE_SHEET_ID": "@google-sheet-id",
-    "NEXT_PUBLIC_QDRANT_COLLECTION": "civic-bridge"
-  }
+  "headers": [
+    {
+      "source": "/sw.js",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+      ]
+    }
+  ]
 }
